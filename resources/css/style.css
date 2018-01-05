@@ -5,6 +5,7 @@ body {
   font-family: Helvetica;
   color: seashell;
   background-color: black;
+  font-size: 22px;
   opacity: 0.9;
   display: block;
   border: 1px solid white;
@@ -15,6 +16,9 @@ div {
   border: 1px solid white;
 }
 
+h2, h4, h5 {
+  text-align: center;
+}
 /* Header */
 
 header {
@@ -59,7 +63,7 @@ span a {
 .container {
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  padding-top: 69px;
   align-items: center;
 }
 
@@ -67,7 +71,7 @@ span a {
   display: flex;
   width: 1200px;
   height: 700px;
-  background-image: url("./images/mission-background.jpg");
+  background-image: url("../images/mission-background.jpg");
   align-items: center;
 }
 
@@ -79,11 +83,63 @@ span a {
 }
 
 .blocktwo {
-  width: 1200px;
-  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  width: 1000px;
+  margin-bottom: 30px;
+}
+
+.texttwo {
+  width: 100%;
+  padding-top: 40px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  padding: 0 10px 0 10px;
 }
 
 .blockthree {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 1200px;
-  height: 500px;
+  height: 600px;
+  background-image: url("../images/locations-background.jpg");
+}
+
+.textthree {
+  display: block;
+  text-align: center;
+  width: 100%;
+  align-self: center;
+}
+
+.square {
+  width: 300px;
+  margin: 0 20px;
+  text-align: center;
+  align-self: flex-start;
+  opacity: 1;
+  background-color: black;
+}
+
+/* Footer */
+
+footer {
+  /* display: flex; */
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
