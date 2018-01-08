@@ -8,12 +8,10 @@ body {
   font-size: 22px;
   opacity: 0.9;
   display: block;
-  /* border: 1px solid white; */
 }
 
 div {
   display: block;
-  /* border: 1px solid white; */
 }
 
 h2, h4, h5 {
@@ -85,7 +83,7 @@ span a {
   background-color: black;
 }
 
-/* Featured Tea Setion */
+/* Featured Tea Section */
 
 .blocktwo {
   display: flex;
@@ -101,10 +99,20 @@ span a {
   padding-top: 40px;
 }
 
+.image {
+  padding-bottom: 20px;
+}
+
 .image img {
   width: 300px;
   height: 200px;
-  padding: 0 15px 0 15px;
+  padding: 0px 15px 0px 15px;
+}
+
+.image span {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* Locations Section */
